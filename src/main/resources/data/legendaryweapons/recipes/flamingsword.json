@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PNP",
+    "GRG",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:blaze_rod"
+    },
+    "P": {
+      "item": "minecraft:blaze_powder"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "legendaryweapons:flamingsword"
+  }
+}
