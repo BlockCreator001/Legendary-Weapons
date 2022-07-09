@@ -45,7 +45,7 @@ public class FlamingSword extends SwordItem {
 
                 3, -3f,
 
-                new Item.Properties().tab(LEGENDARYWEAPONS_TAB).fireResistant());
+                new Properties().tab(LEGENDARYWEAPONS_TAB).fireResistant());
     }
 
     @Override
