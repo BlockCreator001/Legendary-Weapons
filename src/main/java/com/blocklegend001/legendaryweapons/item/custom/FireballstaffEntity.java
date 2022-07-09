@@ -5,6 +5,7 @@ import com.blocklegend001.legendaryweapons.utils.LegendaryWeaponsModEntities;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -77,7 +78,7 @@ public class FireballstaffEntity extends AbstractArrow implements ItemSupplier {
             this.discard();
     }
 
-    public static FireballstaffEntity shoot(Level world, LivingEntity entity, Random random, float power, double damage, int knockback) {
+    public static FireballstaffEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
         FireballstaffEntity entityarrow = new FireballstaffEntity(LegendaryWeaponsModEntities.FIREBALLSTAFF.get(), entity, world);
         entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
         entityarrow.setSilent(true);
