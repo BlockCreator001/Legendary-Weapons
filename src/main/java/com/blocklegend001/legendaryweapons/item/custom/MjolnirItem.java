@@ -42,7 +42,7 @@ public class MjolnirItem extends SwordItem {
             public Ingredient getRepairIngredient() {
                 return Ingredient.EMPTY;
             }
-        }, 3, -3f, new Item.Properties().tab(LEGENDARYWEAPONS_TAB).fireResistant());
+        }, 3, -3f, new Properties().tab(LEGENDARYWEAPONS_TAB).fireResistant());
     }
 
     @Override

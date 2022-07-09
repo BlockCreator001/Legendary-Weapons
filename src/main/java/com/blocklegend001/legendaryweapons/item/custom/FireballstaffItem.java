@@ -20,7 +20,7 @@ import static com.blocklegend001.legendaryweapons.item.ModCreativeModeTab.LEGEND
 
 public class FireballstaffItem extends Item {
     public FireballstaffItem() {
-        super(new Item.Properties().tab(LEGENDARYWEAPONS_TAB).durability(0));
+        super(new Properties().tab(LEGENDARYWEAPONS_TAB).durability(0));
     }
 
     @Override
